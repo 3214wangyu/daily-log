@@ -1,0 +1,24 @@
+开始全局设备好本地的名称和邮箱：
+
+git config --global user.name "名字"
+git config --global user.email  "邮箱"
+
+分为本地仓库,在一个文件夹下面运行
+git init        （英文init    initiation 开始 initially 最初)
+                    (commit  犯罪，把..托付给，承诺，使..承担义务)
+git add redame.txt    可把多个文件添加到仓库 ,git会跟踪该文件
+git commit -m "wrote a readme file "  提交文件至仓库，可一下提交多个文件的更改
+git rm file  在版本库中删除文件  再 git commit
+
+git status   查看状态，比如有文件修改过了，但没有提交过
+git diff [文件名]   查看文件修改
+     查看文件有修改后，就可以 git add   git commit了
+git log  查看最近到最远的提交日志  --pretty=oneline    显示在一行
+
+git reset  --hard HEAD^ 返回上个版本  --hard （指针）指定版本。要想再返回之前的版本，需要有新版本的ID号
+     git reset HEAD file  可以撤销掉缓存区的修改.HEAD 表示最新版本
+git reflog  记录了GIT的每一次的命令，可查看ID号。
+git checkout -- file  用版本库里的版本替换工作区的版本，注意缓存区的修改不会变。--很重要
+
+
+
