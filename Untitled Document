@@ -1,4 +1,5 @@
-开始全局设备好本地的名称和邮箱：
+a
+始全局设备好本地的名称和邮箱：
 
 git config --global user.name "名字"
 git config --global user.email  "邮箱"
